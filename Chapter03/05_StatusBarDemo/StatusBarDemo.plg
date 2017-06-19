@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StatusBarDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/StatusBarDemo.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter03\05_StatusBarDemo\StatusBarDemo.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/StatusBarDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\05_StatusBarDemo\StatusBarDemo.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\05_StatusBarDemo\StatusBarDemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/StatusBarDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\05_StatusBarDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF6.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/StatusBarDemo.pdb" /debug /machine:I386 /out:"Debug/StatusBarDemo.exe" /pdbtype:sept 
+".\Debug\StatusBarDemo.obj"
+".\Debug\StatusBarDemoDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StatusBarDemo.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+StatusBarDemo.cpp
+StatusBarDemoDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/StatusBarDemo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\StatusBarDemo.sbr" ".\Debug\StatusBarDemoDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+StatusBarDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,2 @@
+create table StudentList(StudentID int primary key, StudentName varchar(32) not null)
+create table StudentDetail(StudentID int primary key, StudentAge int not null, StudentSex nchar(1) not null)

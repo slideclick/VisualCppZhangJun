@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GifCtrl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GifCtrl.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter16\05_GifCtrl\GifCtrl.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GifCtrl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter16\05_GifCtrl\GifCtrl.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter16\05_GifCtrl\GifCtrlDlg.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11D.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GifCtrl.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter16\05_GifCtrl\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GifCtrl.pdb" /debug /machine:I386 /out:"Debug/GifCtrl.exe" /pdbtype:sept  ".\Debug\GifCtrl.obj" ".\Debug\GifCtrlDlg.obj" ".\Debug\PictureEx.obj" ".\Debug\StdAfx.obj" ".\Debug\GifCtrl.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GifCtrl.cpp
+GifCtrlDlg.cpp
+PictureEx.cpp
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(244) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(245) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(249) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(252) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(253) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(258) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(266) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(267) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(271) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(274) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(275) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(280) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(295) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Comm\PictureEx.cpp(295) : warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GifCtrl.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

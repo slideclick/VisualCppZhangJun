@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TextPathWnd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TextPathWnd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\05_TextPathWnd\LayeredWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\05_TextPathWnd\TextPathWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\05_TextPathWnd\TextPathWndDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13C.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TextPathWnd.pdb" /debug /machine:I386 /out:"Debug/TextPathWnd.exe" /pdbtype:sept 
+".\Debug\LayeredWnd.obj"
+".\Debug\PathWnd.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TextPathWnd.obj"
+".\Debug\TextPathWndDlg.obj"
+".\Debug\TextPathWnd.res"
+".\Debug\MyWnd.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13D.tmp"
+<h3>Output Window</h3>
+Compiling...
+LayeredWnd.cpp
+TextPathWnd.cpp
+TextPathWndDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/TextPathWnd.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\LayeredWnd.sbr" ".\Debug\PathWnd.sbr" ".\Debug\TextPathWnd.sbr" ".\Debug\TextPathWndDlg.sbr" ".\Debug\MyWnd.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TextPathWnd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

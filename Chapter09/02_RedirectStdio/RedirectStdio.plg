@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RedirectStdio - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/RedirectStdio.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter09\02_RedirectStdio\RedirectStdio.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RedirectStdio.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter09\02_RedirectStdio\RedirectStdio.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter09\02_RedirectStdio\RedirectStdioDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D1.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RedirectStdio.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter09\02_RedirectStdio\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D2.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RedirectStdio.pdb" /debug /machine:I386 /out:"Debug/RedirectStdio.exe" /pdbtype:sept 
+".\Debug\RedirectStdio.obj"
+".\Debug\RedirectStdioDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RedirectStdio.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1D3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+RedirectStdio.cpp
+RedirectStdioDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+RedirectStdio.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

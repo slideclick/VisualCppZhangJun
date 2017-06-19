@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: InputDlg_Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/InputDlg_Demo.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter05\08_InputDlg_Demo\InputDlg_Demo.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP97.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/InputDlg_Demo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Comm\DlgTemplet.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Comm\inputdlg.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\08_InputDlg_Demo\InputDlg_Demo.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\08_InputDlg_Demo\InputDlg_DemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP97.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/InputDlg_Demo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\08_InputDlg_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP98.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP99.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/InputDlg_Demo.pdb" /debug /machine:I386 /out:"Debug/InputDlg_Demo.exe" /pdbtype:sept 
+".\Debug\DlgTemplet.obj"
+".\Debug\inputdlg.obj"
+".\Debug\InputDlg_Demo.obj"
+".\Debug\InputDlg_DemoDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\InputDlg_Demo.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP99.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgTemplet.cpp
+inputdlg.cpp
+InputDlg_Demo.cpp
+InputDlg_DemoDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/InputDlg_Demo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DlgTemplet.sbr" ".\Debug\inputdlg.sbr" ".\Debug\InputDlg_Demo.sbr" ".\Debug\InputDlg_DemoDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+InputDlg_Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

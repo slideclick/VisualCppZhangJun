@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>ActiveX控件测试</title>
+</head>
+<body>
+<script language="javascript">
+	//让控件滚动或停止滚动
+	function AnimateCtrl()
+	{
+		var ctrl = document.getElementById('MyActiveX');
+		ctrl.Animate();
+	}
+	//更新控件的属性
+	function UpdateProperties()
+	{
+		//得到控件
+		var ctrl = document.getElementById('MyActiveX');
+		ctrl.style.color='green';
+		//得到输入的线宽
+		var input = document.getElementById('LineWidth');
+		//将线宽设置到控件
+		ctrl.LineWidth = input.value;
+		//得到输入的周期
+		var input = document.getElementById('Cycle');
+		//将周期设置到控件
+		ctrl.Cycle = input.value;
+		//得到输入的RGB值
+		var r = document.getElementById('CrRed');
+		var g = document.getElementById('CrGreen');
+		var b = document.getElementById('CrBlue');
+		//将RGB值组合成颜色并设置到控件
+		var color = parseInt(r.value) + g.value * 256 + b.value * 65536;
+		ctrl.ForeColor=color;	
+}
+</script>
+<div id="Frame" style="color:green;">
+在网页中使用ActiveX控件<br>
+<object style="color:red;" id="MyActiveX" width="300" height="200" classid="clsid:BF4C592B-6856-4C01-90B8-75B8155F5D96">
+	<param name="LineWidth" value="2">
+	<param name="Cycle" value="50">
+</object>
+</div><br>
+线宽：<input id="LineWidth" value="1"><br>
+周期：<input id="Cycle" value="100"><br>
+颜色：<input id="CrRed" value="0" style="width:30px;">,
+<input id="CrGreen" value="0" style="width:30px;">,
+<input id="CrBlue" value="255" style="width:30px;">
+<br>
+<input type="submit" onclick="UpdateProperties();" value="更新">
+<input type="submit" onclick="AnimateCtrl();" value="滚动">
+</body>
+<html>

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ColorStatusBar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ColorStatusBar.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter03\06_ColorStatusBar\ColorStatusBar.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ColorStatusBar.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\06_ColorStatusBar\ColorProgress.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\06_ColorStatusBar\ColorStatusBar.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\06_ColorStatusBar\ColorStatusBarDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFB.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ColorStatusBar.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter03\06_ColorStatusBar\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFC.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ColorStatusBar.pdb" /debug /machine:I386 /out:"Debug/ColorStatusBar.exe" /pdbtype:sept 
+".\Debug\ColorProgress.obj"
+".\Debug\ColorStatusBar.obj"
+".\Debug\ColorStatusBarDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ColorStatusBar.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ColorProgress.cpp
+ColorStatusBar.cpp
+ColorStatusBarDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ColorStatusBar.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ColorProgress.sbr" ".\Debug\ColorStatusBar.sbr" ".\Debug\ColorStatusBarDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ColorStatusBar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

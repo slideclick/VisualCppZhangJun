@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DrawLine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DrawLine.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\DrawLine.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DrawLine.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\DrawLine.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\DrawLineDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DrawLine.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DrawLine.pdb" /debug /machine:I386 /out:"Debug/DrawLine.exe" /pdbtype:sept  ".\Debug\DrawLine.obj" ".\Debug\DrawLineDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DrawLine.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DrawLine.cpp
+DrawLineDlg.cpp
+J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\DrawLineDlg.cpp(192) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+J:\Writen\VC++6.0开发实例\Samples\Chapter11\02_DrawLine\DrawLineDlg.cpp(192) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DrawLine.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

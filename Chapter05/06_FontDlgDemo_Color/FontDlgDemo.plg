@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FontDlgDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/FontDlgDemo.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter05\06_FontDlgDemo_Color\FontDlgDemo.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FontDlgDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\06_FontDlgDemo_Color\FontDlgDemo.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\06_FontDlgDemo_Color\FontDlgDemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7D.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/FontDlgDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter05\06_FontDlgDemo_Color\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FontDlgDemo.pdb" /debug /machine:I386 /out:"Debug/FontDlgDemo.exe" /pdbtype:sept  ".\Debug\FontDlgDemo.obj" ".\Debug\FontDlgDemoDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\FontDlgDemo.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FontDlgDemo.cpp
+FontDlgDemoDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/FontDlgDemo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\FontDlgDemo.sbr" ".\Debug\FontDlgDemoDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+FontDlgDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

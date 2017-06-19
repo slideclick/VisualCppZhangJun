@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GetHttpStr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/GetHttpStr.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter14\07_GetHttpStr\GetHttpStr.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetHttpStr.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter14\07_GetHttpStr\GetHttpStr.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter14\07_GetHttpStr\GetHttpStrDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD9.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/GetHttpStr.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter14\07_GetHttpStr\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPDA.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GetHttpStr.pdb" /debug /machine:I386 /out:"Debug/GetHttpStr.exe" /pdbtype:sept  ".\Debug\GetHttpStr.obj" ".\Debug\GetHttpStrDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\GetHttpStr.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GetHttpStr.cpp
+GetHttpStrDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GetHttpStr.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

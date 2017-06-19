@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PrimeNumberFinder - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PrimeNumberFinder.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter10\01_PrimeNumberFinder\PrimeNumberFinder.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PrimeNumberFinder.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\01_PrimeNumberFinder\PrimeNumberFinder.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\01_PrimeNumberFinder\PrimeNumberFinderDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PrimeNumberFinder.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\01_PrimeNumberFinder\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PrimeNumberFinder.pdb" /debug /machine:I386 /out:"Debug/PrimeNumberFinder.exe" /pdbtype:sept 
+".\Debug\PrimeNumberFinder.obj"
+".\Debug\PrimeNumberFinderDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PrimeNumberFinder.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PrimeNumberFinder.cpp
+PrimeNumberFinderDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PrimeNumberFinder.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\PrimeNumberFinder.sbr" ".\Debug\PrimeNumberFinderDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PrimeNumberFinder.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

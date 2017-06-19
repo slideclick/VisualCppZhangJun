@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PicShow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PicShow.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter11\05_PicShow\PicShow.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PicShow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Comm\MyMemDC.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\05_PicShow\PicShow.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\05_PicShow\PicShowDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E1.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PicShow.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter11\05_PicShow\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E2.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PicShow.pdb" /debug /machine:I386 /out:"Debug/PicShow.exe" /pdbtype:sept  ".\Debug\MyMemDC.obj" ".\Debug\PicShow.obj" ".\Debug\PicShowDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\PicShow.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyMemDC.cpp
+PicShow.cpp
+PicShowDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PicShow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

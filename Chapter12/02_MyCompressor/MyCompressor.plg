@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyCompressor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyCompressor.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter12\02_MyCompressor\MyCompressor.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyCompressor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter12\02_MyCompressor\Compressor.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter12\02_MyCompressor\MyCompressor.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter12\02_MyCompressor\MyCompressorDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyCompressor.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter12\02_MyCompressor\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyCompressor.pdb" /debug /machine:I386 /out:"Debug/MyCompressor.exe" /pdbtype:sept 
+".\Debug\Compressor.obj"
+".\Debug\MyCompressor.obj"
+".\Debug\MyCompressorDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyCompressor.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Compressor.cpp
+MyCompressor.cpp
+MyCompressorDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyCompressor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

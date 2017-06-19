@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PrimeNumberFinal - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PrimeNumberFinal.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter10\03_PrimeNumberFinal\PrimeNumberFinal.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PrimeNumberFinal.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\03_PrimeNumberFinal\PrimeNumberFinal.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\03_PrimeNumberFinal\PrimeNumberFinalDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PrimeNumberFinal.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter10\03_PrimeNumberFinal\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PrimeNumberFinal.pdb" /debug /machine:I386 /out:"Debug/PrimeNumberFinal.exe" /pdbtype:sept 
+".\Debug\PrimeNumberFinal.obj"
+".\Debug\PrimeNumberFinalDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PrimeNumberFinal.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PrimeNumberFinal.cpp
+PrimeNumberFinalDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PrimeNumberFinal.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\PrimeNumberFinal.sbr" ".\Debug\PrimeNumberFinalDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PrimeNumberFinal.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

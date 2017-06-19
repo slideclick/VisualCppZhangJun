@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WideText - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/WideText.pdb" /debug /machine:I386 /out:"Debug/WideText.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\WideText.obj"
+".\Debug\WideTextDlg.obj"
+".\Debug\WideText.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+WideText.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KeyTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/KeyTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter08\02_KeyTest\KeyTest.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter08\02_KeyTest\KeyTestWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Comm\MyWnd.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AC.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/KeyTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter08\02_KeyTest\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AD.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/KeyTest.pdb" /debug /machine:I386 /out:"Debug/KeyTest.exe" /pdbtype:sept 
+".\Debug\KeyTest.obj"
+".\Debug\KeyTestWnd.obj"
+".\Debug\MyWnd.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1AE.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+KeyTest.cpp
+KeyTestWnd.cpp
+MyWnd.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/KeyTest.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\KeyTest.sbr" ".\Debug\KeyTestWnd.sbr" ".\Debug\MyWnd.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+KeyTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DoubleEdit_Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/res.res" /d "_DEBUG" "J:\Writen\VC++6.0开发实例\Samples\Chapter06\05_DoubleEdit_Demo\res.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DoubleEdit_Demo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Comm\DoubleEdit.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter06\05_DoubleEdit_Demo\DoubleEdit_Demo.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17A.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/DoubleEdit_Demo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter06\05_DoubleEdit_Demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17B.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DoubleEdit_Demo.pdb" /debug /machine:I386 /out:"Debug/DoubleEdit_Demo.exe" /pdbtype:sept 
+".\Debug\DoubleEdit.obj"
+".\Debug\DoubleEdit_Demo.obj"
+".\Debug\StdAfx.obj"
+".\Debug\res.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DoubleEdit.cpp
+DoubleEdit_Demo.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/DoubleEdit_Demo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\DoubleEdit.sbr" ".\Debug\DoubleEdit_Demo.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DoubleEdit_Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

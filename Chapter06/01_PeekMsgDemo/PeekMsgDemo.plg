@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PeekMsgDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP165.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/PeekMsgDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter06\01_PeekMsgDemo\MsgWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Comm\MyWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter06\01_PeekMsgDemo\PeekMsgDemo.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP165.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP166.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/PeekMsgDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter06\01_PeekMsgDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP166.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP167.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PeekMsgDemo.pdb" /debug /machine:I386 /out:"Debug/PeekMsgDemo.exe" /pdbtype:sept 
+".\Debug\MsgWnd.obj"
+".\Debug\MyWnd.obj"
+".\Debug\PeekMsgDemo.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP167.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MsgWnd.cpp
+MyWnd.cpp
+PeekMsgDemo.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PeekMsgDemo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MsgWnd.sbr" ".\Debug\MyWnd.sbr" ".\Debug\PeekMsgDemo.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PeekMsgDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

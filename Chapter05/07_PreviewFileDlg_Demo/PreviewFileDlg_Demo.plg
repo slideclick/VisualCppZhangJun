@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PreviewFileDlg_Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP91.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PreviewFileDlg_Demo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Comm\MyMemDC.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Comm\PreviewFileDlg\PreviewFileDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP91.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PreviewFileDlg_Demo.pdb" /debug /machine:I386 /out:"Debug/PreviewFileDlg_Demo.exe" /pdbtype:sept 
+".\Debug\MyMemDC.obj"
+".\Debug\PreviewFileDlg.obj"
+".\Debug\PreviewFileDlg_Demo.obj"
+".\Debug\PreviewFileDlg_DemoDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PreviewFileDlg_Demo.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyMemDC.cpp
+Generating Code...
+Compiling...
+PreviewFileDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PreviewFileDlg_Demo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\MyMemDC.sbr" ".\Debug\PreviewFileDlg.sbr" ".\Debug\PreviewFileDlg_Demo.sbr" ".\Debug\PreviewFileDlg_DemoDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PreviewFileDlg_Demo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

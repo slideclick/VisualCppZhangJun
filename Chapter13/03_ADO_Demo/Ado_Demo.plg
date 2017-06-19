@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ado_Demo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Ado_Demo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter13\03_ADO_Demo\Ado_DemoDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ado_Demo.pdb" /debug /machine:I386 /out:"Debug/Ado_Demo.exe" /pdbtype:sept  ".\Debug\Ado_Demo.obj" ".\Debug\Ado_DemoDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Ado_Demo.res" "
+<h3>Output Window</h3>
+Compiling...
+Ado_DemoDlg.cpp
+j:\writen\vc++6.0开发实例\samples\chapter13\03_ado_demo\debug\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Ado_Demo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Ado_Demo.sbr" ".\Debug\Ado_DemoDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Ado_Demo.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

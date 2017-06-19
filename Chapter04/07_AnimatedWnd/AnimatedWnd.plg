@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AnimatedWnd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/AnimatedWnd.res" /d "_DEBUG" /d "_AFXDLL" "J:\Writen\VC++6.0开发实例\Samples\Chapter04\07_AnimatedWnd\AnimatedWnd.rc"" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/AnimatedWnd.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\07_AnimatedWnd\AnimatedDlg.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\07_AnimatedWnd\AnimatedWnd.cpp"
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\07_AnimatedWnd\AnimatedWndDlg.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/AnimatedWnd.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"J:\Writen\VC++6.0开发实例\Samples\Chapter04\07_AnimatedWnd\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14C.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AnimatedWnd.pdb" /debug /machine:I386 /out:"Debug/AnimatedWnd.exe" /pdbtype:sept 
+".\Debug\AnimatedDlg.obj"
+".\Debug\AnimatedWnd.obj"
+".\Debug\AnimatedWndDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AnimatedWnd.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP14D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AnimatedDlg.cpp
+AnimatedWnd.cpp
+AnimatedWndDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/AnimatedWnd.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\AnimatedDlg.sbr" ".\Debug\AnimatedWnd.sbr" ".\Debug\AnimatedWndDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AnimatedWnd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
